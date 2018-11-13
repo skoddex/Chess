@@ -12,7 +12,7 @@ namespace Chess
     public class Map
     {
         private int size = 64;
-        private Case[] map;
+        private Case[,] map;
 
         public Map()
         {
