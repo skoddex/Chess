@@ -8,5 +8,19 @@ namespace Chess
 {
     class Case
     {
+        private int x;
+        private int y;
+
+        Piece currentPiece = null;
+
+        public Case(int x , int y, Piece piece)
+        {
+            this.x = x;
+            this.y = y;
+            this.currentPiece = piece;
+
+        }
+
+
     }
 }
