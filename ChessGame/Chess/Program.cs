@@ -15,7 +15,7 @@ namespace JeuEchec
             MyLog("Hello, Application d'échec");
 
             Map myMap = new Map();
-
+            
             myMap.DisplayMap();
 
             MyLog("End, Application d'échec");
