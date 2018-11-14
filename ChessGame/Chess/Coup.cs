@@ -10,9 +10,13 @@ namespace Chess
     {
         private List<Case> casesPossible = new List<Case>();
 
-        public List<Case> CasesPossible { get => casesPossible; set => casesPossible = value; }
+        public List<Case> CasesPossible
+        {
+            get { return casesPossible; }
+            set { casesPossible = value; }
+        }
 
-        public Coup()
+    public Coup()
         {
 
         }

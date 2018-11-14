@@ -19,8 +19,12 @@ namespace Chess
 
         #region propiétés
 
-        public Case CurrentCase { get => currentCase; set => currentCase = value; }
-
+        public Case CurrentCase
+        {
+            get {return currentCase; }
+            set { currentCase = value; }
+        }
+        
         #endregion
 
         #region méthodes
