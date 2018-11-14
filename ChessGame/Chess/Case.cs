@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Chess
 {
-    class Case
+    public class Case
     {
         private int x;
         private int y;
@@ -20,7 +20,6 @@ namespace Chess
             this.currentPiece = piece;
 
         }
-
 
     }
 }
